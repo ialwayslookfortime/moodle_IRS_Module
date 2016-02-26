@@ -1,0 +1,1 @@
+請設定 connection資料夾內的connection.php 與moodle的config資訊一樣
