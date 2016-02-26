@@ -1,0 +1,79 @@
+body{
+	font-family:·L³n¥¿¶ÂÅé;
+	background-color:#FFFFE8;
+}
+nav{
+	margin-left:-5%;
+	margin-top:-6%;
+	position: fixed;
+	width: 105%;
+	clear: both;
+	background-color: #2828FF;
+	height: 20%;
+	text-align:center;
+	}
+nav div {
+	font-family: Times;
+	font-size: 150%;
+	color: #ffffff;
+	margin-top:2%;
+}
+
+a {
+	color: #de6581;
+	text-decoration: none;}
+aside {
+	width: 10%;
+	float: left;
+	margin-right:5%;
+	margin-top:7%;}
+			
+.left{
+	position: relative;
+	float: left;
+	margin-top: 10%;
+	margin-left:0%;
+	width: 10%;
+	height:80%;
+}
+
+#iframeppt{
+	position: fixed;
+	float:left;
+	left:15%;
+	top:15%;
+	margin-left:0%;
+}
+
+#studentonline{
+	position: relative;
+	float:right;
+	margin-top:7.5%;
+	margin-right:2%;
+}
+#PageArea
+{
+	margin: 0% 0% 0% 0%;
+}
+aside form{
+	position: relative;
+	margin-top:2%;
+	margin-bottom:0.5em;
+}
+aside input{
+	position: relative;
+	margin-top:2%;
+	margin-bottom:1em;
+}
+aside h4{
+	position: relative;
+	margin-top:2%;
+}
+aside h5{
+	position: relative;
+	margin-top:1%;
+}
+
+#clock{
+
+}

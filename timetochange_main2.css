@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------!!!!CSSreset!!!!-------*/
+
+body{
+					font-family:"Microsoft JhengHei";
+					background-color:#BBE2FF;
+					max-height:100%;
+					overflow:hidden;
+				}
+				nav{
+					width:100%;
+					height:10%;
+					position: fixed;
+					clear: both;
+					background:url(image/nav_blue.png) #3498DB repeat;
+					text-align:center;
+					}	
+
+				a {
+					color: #de6581;
+					text-decoration: none;}
+					
+				/*--------aside_left--------*/
+					
+				.left 
+				{
+					width: 19%;
+					margin-top:5.3%;
+					float: left;
+	
+				}
+				
+				/*-------ExamArea-----------*/
+				#ExamArea
+				{
+					position: relative;
+					background-color:#3DB1F2;
+					min-height:25%;
+					
+				}
+				#reset
+				{
+					width:50px;
+					height:50px;
+				}
+
+				aside form
+				{
+					position: relative;
+					margin-top:0.5em;
+					margin-bottom:0.5em;
+				
+				}
+				
+				aside h4{
+					position: relative;
+					font-size:25px;
+					padding:3% 0;
+				}
+				/*-------PageArea-----------*/
+				#PageArea
+				{
+				background-color: #73BDFF; 
+				max-height:25%;
+				
+				}
+				#PageArea input
+				{
+					font:20px/25px bold "Microsoft JhengHei",Arial,sans-serif;
+					margin:3% auto;
+				}
+				#PageArea h5
+				{
+					font:25px/35px bold "Microsoft JhengHei",Arial,sans-serif;
+			
+				}
+				#previouschangepage
+				{
+					width:50px;
+					height:50px;
+				}
+				#nextchangepage
+				{
+					width:50px;
+					height:50px;
+				}
+				#changepage
+				{
+					width:50px;
+					height:30px;
+					font:20px bold "Microsoft JhengHei",Arial,sans-serif;
+					border:3px solid #277AA8;
+					border-radius:5px;
+					background-color:#277AA8;
+					color:#fff;
+					text-align:center;
+				}
+				
+				/*--------------TimeArea------------*/				
+				#TimeArea
+				{
+					font-size:10px;
+					background-color: #3DB1F2;
+					height:30%
+				}
+				
+				#TimeArea #checkextra
+				{
+					width:48px;
+					height:30px;
+					font:20px bold "Microsoft JhengHei",Arial,sans-serif;
+					border:3px solid #277AA8;
+					border-radius:5px;
+					background-color:#277AA8;
+					color:#fff;
+					text-align:center;
+				}
+				
+				#selection
+				{
+					font-size:20px;
+					margin:3% 0;
+				}
+				#Extratime
+				{
+					font-size:10px;	
+					margin-bottom:3%;
+				}
+				
+				#TimeArea #gogochart
+				{
+					width:100px;
+					height:30px;
+					font:20px bold "Microsoft JhengHei",Arial,sans-serif;
+					border:3px solid #277AA8;
+					border-radius:5px;
+					background-color:#277AA8;
+					color:#fff;
+					text-align:center;
+				}
+				#TimeArea #volunteer
+				{
+					width:100px;
+					height:30px;
+					font:20px bold "Microsoft JhengHei",Arial,sans-serif;
+					border:3px solid #277AA8;
+					border-radius:5px;
+					background-color:#277AA8;
+					color:#fff;
+					text-align:center;
+				}
+				#TimeArea input
+				{
+					width:50px;
+					height:50px;
+					font:20px/25px bold "Microsoft JhengHei",Arial,sans-serif;
+					margin:3% 3%;
+				}
+				
+				/*----------------PPT_Area------------------*/
+				#iframeppt
+				{
+				position: fixed;
+				left: 20%;
+				top: 50px;
+				width: 60%;
+				height: 80%;
+				margin-top: 3%;
+				}
+				
+				
+				
+				
+				/*--------------student_online---------------*/
+				#studentonline
+				{
+					
+					width:15%;
+					height:100%;
+					background-color:#BBE2FF;
+					margin-top:6%;
+					margin-left:3%;
+					margin-right:3%;
+					float:right;
+										
+				}
+				#show_area
+				{
+					background-color:#BBE2FF;
+				}
+				#show_area table td
+				{	
+					padding-right:1.3em;
+					font:20px/27px bold "Microsoft JhengHei",Arial,sans-serif;
+				}
+				#online
+				{
+					height: 10px;
+					width: 10px;
+					background-color: #B22D51;
+					border-radius: 10px;
+					display:inline-block;
+				}
+				#offline
+				{
+					height: 10px;
+					width: 10px;	
+					background-color: #A0868D;
+					border-radius: 10px;
+					display:inline-block;
+				}
+				#answer
+				{
+					height: 10px;
+					width: 10px;
+					background-color: #F94072;
+					border-radius: 10px;
+					display:inline-block;
+				}
+				#hesitate
+				{
+					height: 10px;
+					width: 10px;
+					background-color: #FFFF00;
+					border-radius: 10px;
+					display:inline-block;
+				}

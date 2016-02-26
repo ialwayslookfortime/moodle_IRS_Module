@@ -1,0 +1,83 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,p {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+ background: transparent;
+}
+
+body
+{
+	background:url(image/index_mobile_backgroud.jpg);
+}
+h1
+{
+	color:#FFFFF0;
+	font-size:40px;
+}
+.container
+{
+	position:relative;
+}
+.button
+{
+	line-height: 2;
+	padding-bottom:1.6em;
+}
+input.groovybutton
+{
+	font-size:40px;
+	font-family:Arial Black,sans-serif;
+	font-weight:bold;
+	text-align:left;
+	align:right;
+	color:#FFFFFF;
+	width:200px;
+	height:100px;
+	background:rgba(100%, 100%, 100%, 0);
+	border-top-style:solid;
+	border-top-color:#000000;
+	border-top-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#FFFFFF;
+	border-bottom-width:1px;
+	border-bottom: 1px dotted;
+	border-left-style:solid;
+	border-left-color:#000000;
+	border-left-width:6px;
+	border-right-style:solid;
+	border-right-color:#000000;
+	border-right-width:6px;
+	list-style: none;
+}
+.button ul
+{
+	margin-left: 0.5em;
+	border-left: 1px solid rgb(255,255,255);
+}
+li
+{
+	padding-left: 0.5em;
+	position: relative;
+    top: 0.55em;
+	//border-bottom: 1px dotted;
+}
+.button span
+{
+	text-decoration: none;
+	position: relative;
+	top: 0.55em;
+	display: block;
+	padding-left: 2.5em;
+	background: url(image/index_mobile_dot.jpg) no-repeat left center;
+}
